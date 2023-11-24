@@ -21,7 +21,7 @@ You can try it out by visiting the [live demo](https://wa-thakkir.onrender.com).
 ✅ Full error-handling
 
 
-##💻 Usage
+## 💻 Usage
 
 ### Install Dependencies
 
