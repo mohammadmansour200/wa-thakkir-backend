@@ -12,8 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: ["https://wa-thakkir.onrender.com/"],
-    credentials: true,
+    origin: "https://wa-thakkir.onrender.com",
   })
 );
 
