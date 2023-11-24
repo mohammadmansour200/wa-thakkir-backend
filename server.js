@@ -10,11 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use(
-  cors({
-    origin: "https://wa-thakkir.onrender.com",
-  })
-);
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({ message: "Hello world" });
